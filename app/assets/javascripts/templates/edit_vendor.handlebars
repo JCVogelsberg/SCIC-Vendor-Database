@@ -1,0 +1,46 @@
+<div class="container">
+  <h3>Edit Vendor</h3>
+
+  <form>
+    <div class="form-group">
+      <label for="name">Name</label>
+      {{#each error in errors.name}}
+        {{error.message}}
+      {{/each}}
+      {{input type="text" id="name" class="form control" value=name}}
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone</label>
+      {{#each error in errors.phone}}
+        {{error.message}}
+      {{/each}}
+      {{input type="text" id="phone" class="form control" value=phone}}
+    </div>
+
+    <div class="form-group">
+      <label for="location">Location</label>
+      {{#each error in errors.location}}
+        {{error.message}}
+      {{/each}}
+      {{input type="text" id="location" class="form control" value=location}}
+    </div>
+
+    <div class="form-group">
+      <label for="description">Description</label>
+      {{#each error in errors.description}}
+        {{error.message}}
+      {{/each}}
+      {{input type="text" id="description" class="form control" value=description}}
+    </div><br>
+
+    <button {{action updateVendor}} class="btn btn-default btn-xs">Update Vendor</button>
+
+    <button {{action deleteVendor}} class="btn btn-danger btn-xs">Delete Vendor</button><br><br>
+
+    <p>{{#link-to 'vendors'}}Return to Vendor List{{/link-to}}</p>
+  </form>
+</div>
+
+
+

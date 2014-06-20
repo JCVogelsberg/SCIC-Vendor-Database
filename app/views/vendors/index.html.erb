@@ -1,0 +1,11 @@
+<h3>Vendors</h3>
+
+<ul>
+  <% @vendors.each do |vendor| %>
+    <li><a href="/vendors/<%= vendor.id %>"><%= vendor.name %></a></li>
+    <% end %>
+</ul>
+
+<p><%= link_to "Add a New Vendor", new_vendor_path, :class => "btn btn-default" %></p><br><br>
+
+<p><a href="/vendors">Return to Vendor Index</a></p>
