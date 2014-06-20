@@ -1,28 +1,5 @@
-== README
+== ERAU SCIC Vendor Database
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I created this app for members of the Sport Compact Import Car club at my alma-mater, Embry-Riddle Aeronautical University. It's a CRUD app with a Ruby on Rails back end and an Ember.js front end, and allows a user to list, edit, and delete shops, garages, and mechanics in the Daytona Beach area, so that other users can find the best automotive repair professional to fit their needs.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
