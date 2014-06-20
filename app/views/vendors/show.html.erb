@@ -1,0 +1,21 @@
+<%= content_for(:title, "Show Vendor | SCIC Vendor Database") %>
+
+<h3><em> <%= @vendor.name %> </em></h3>
+
+<p> <b>Phone:</b> </p>
+<p> <%= @vendor.phone %> </p>
+
+<p> <b>Location:</b> </p>
+<p> <%= @vendor.location %> </p>
+
+<p> <b>Description:</b> </p>
+<p> <%= @vendor.description %> </p><br>
+
+<p> <%= link_to "Edit Vendor", edit_vendor_path(@vendor), :class => "btn btn-default" %> </p>
+
+<p> <%= link_to "Delete Vendor", vendor_path(@vendor),
+                          data: { confirm: "Are You Sure? This will permanently delete this Vendor.",
+                          method: "delete" },
+                          :class => "btn btn-danger" %> </p><br>
+
+<p><a href="/vendors">Return to Vendor Index</a></p>
