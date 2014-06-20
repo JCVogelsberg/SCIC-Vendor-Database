@@ -1,0 +1,5 @@
+== ERAU SCIC Vendor Database
+
+I created this app for members of the Sport Compact Import Car club at my alma-mater, Embry-Riddle Aeronautical University. It's a CRUD app with a Ruby on Rails back end and an Ember.js front end, and allows a user to list, edit, and delete shops, garages, and mechanics in the Daytona Beach area, so that other users can find the best automotive repair professional to fit their needs.
+
+

@@ -1,0 +1,13 @@
+<div class="container">
+
+  <h4>Vendors Recommended by Other SCIC Members:</h4>
+
+  <ul>
+  {{#each vendor in controller}}
+    <li>{{#link-to "vendor" vendor}}{{vendor.name}}{{/link-to}}</li>
+  {{/each}}
+  </ul><br>
+
+  <p>{{#link-to 'new_vendor'}}Add a Vendor{{/link-to}}</p>
+
+</div>
