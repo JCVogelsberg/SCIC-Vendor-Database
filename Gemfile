@@ -10,6 +10,7 @@ gem 'bootstrap-sass'
 gem 'ember-rails'
 gem 'ember-data-source', '~> 1.0.0.beta.7'
 gem 'rerun'
+gem 'newrelic_rpm'
 
 group :development do
   gem 'binding_of_caller'
